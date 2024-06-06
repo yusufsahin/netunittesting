@@ -1,7 +1,5 @@
-
 using Microsoft.EntityFrameworkCore;
 using OnlineStore.API.Models;
-using System.Globalization;
 
 namespace OnlineStore.API
 {
@@ -12,21 +10,18 @@ namespace OnlineStore.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<StoreDbContext>(opts =>
+            {
+                opts.UseSqlServer(builder.Configuration["ConnectionStrings:OnlineStoreConnection"]);
+            });
 
-            builder.Services.AddDbContext<StoreDbContext>(
-                opts => {
-                    opts.UseSqlServer(builder.Configuration["ConnectionStrings:OnlineStoreConnection"]);
-                });
-
-            builder.Services.AddScoped<IStoreRepository,EFStoreRepository>();
-
+            builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-          
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -35,10 +30,7 @@ namespace OnlineStore.API
             }
 
             app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.Run();
         }
     }
