@@ -3,8 +3,16 @@ namespace OnlineStore.API.Models
 {
     public class EFStoreRepository : IStoreRepository
     {
-        private StoreDbContext context;
+        private readonly StoreDbContext _context;
 
-        public IQueryable<Product> Products => context.Products;
+        public EFStoreRepository()
+        {
+        }
+
+        public EFStoreRepository(StoreDbContext context)
+        {
+            _context = context;
+        }
+        public IQueryable<Product> Products => _context.Products;
     }
 }
