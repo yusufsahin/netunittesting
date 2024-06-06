@@ -1,0 +1,14 @@
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\bin\Debug\net8.0\HelloWorldNUnit.exe
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\bin\Debug\net8.0\HelloWorldNUnit.deps.json
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\bin\Debug\net8.0\HelloWorldNUnit.runtimeconfig.json
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\bin\Debug\net8.0\HelloWorldNUnit.dll
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\bin\Debug\net8.0\HelloWorldNUnit.pdb
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.AssemblyInfoInputs.cache
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.AssemblyInfo.cs
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.csproj.CoreCompileInputs.cache
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.dll
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\refint\HelloWorldNUnit.dll
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.pdb
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\HelloWorldNUnit.genruntimeconfig.cache
+C:\Projects\NetUnitTesting\HelloWorldNUnit\HelloWorldNUnit\obj\Debug\net8.0\ref\HelloWorldNUnit.dll

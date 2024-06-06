@@ -1,0 +1,11 @@
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\bin\Debug\net8.0\DortIslem.deps.json
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\bin\Debug\net8.0\DortIslem.dll
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\bin\Debug\net8.0\DortIslem.pdb
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\DortIslem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\DortIslem.AssemblyInfoInputs.cache
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\DortIslem.AssemblyInfo.cs
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\DortIslem.csproj.CoreCompileInputs.cache
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\DortIslem.dll
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\refint\DortIslem.dll
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\DortIslem.pdb
+C:\Projects\NetUnitTesting\DortIslem\DortIslem\obj\Debug\net8.0\ref\DortIslem.dll

@@ -1,0 +1,11 @@
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\bin\Debug\net8.0\DortIslemNUnit.deps.json
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\bin\Debug\net8.0\DortIslemNUnit.dll
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\bin\Debug\net8.0\DortIslemNUnit.pdb
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\DortIslemNUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\DortIslemNUnit.AssemblyInfoInputs.cache
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\DortIslemNUnit.AssemblyInfo.cs
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\DortIslemNUnit.csproj.CoreCompileInputs.cache
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\DortIslemNUnit.dll
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\refint\DortIslemNUnit.dll
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\DortIslemNUnit.pdb
+C:\Projects\NetUnitTesting\DortIslemNUnit\DortIslemNUnit\obj\Debug\net8.0\ref\DortIslemNUnit.dll
