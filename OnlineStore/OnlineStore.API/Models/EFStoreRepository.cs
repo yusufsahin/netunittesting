@@ -1,4 +1,6 @@
-﻿
+﻿using System.Linq;
+using Microsoft.EntityFrameworkCore;
+
 namespace OnlineStore.API.Models
 {
     public class EFStoreRepository : IStoreRepository
@@ -11,5 +13,25 @@ namespace OnlineStore.API.Models
         }
 
         public IQueryable<Product> Products => _context.Products;
+
+        public void AddProduct(Product product)
+        {
+            _context.Products.Add(product);
+        }
+
+        public void UpdateProduct(Product product)
+        {
+            _context.Entry(product).State = EntityState.Modified;
+        }
+
+        public void DeleteProduct(Product product)
+        {
+            _context.Products.Remove(product);
+        }
+
+        public void SaveChanges()
+        {
+            _context.SaveChanges();
+        }
     }
 }

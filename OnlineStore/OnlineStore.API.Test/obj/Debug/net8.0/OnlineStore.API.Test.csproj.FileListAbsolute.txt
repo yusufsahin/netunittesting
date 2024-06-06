@@ -446,3 +446,5 @@ C:\Projects\NetUnitTesting\OnlineStore\OnlineStore.API.Test\obj\Debug\net8.0\ref
 C:\Projects\NetUnitTesting\OnlineStore\OnlineStore.API.Test\obj\Debug\net8.0\OnlineStore.API.Test.pdb
 C:\Projects\NetUnitTesting\OnlineStore\OnlineStore.API.Test\obj\Debug\net8.0\OnlineStore.API.Test.genruntimeconfig.cache
 C:\Projects\NetUnitTesting\OnlineStore\OnlineStore.API.Test\obj\Debug\net8.0\ref\OnlineStore.API.Test.dll
+C:\Projects\NetUnitTesting\OnlineStore\OnlineStore.API.Test\bin\Debug\net8.0\Castle.Core.dll
+C:\Projects\NetUnitTesting\OnlineStore\OnlineStore.API.Test\bin\Debug\net8.0\Moq.dll
