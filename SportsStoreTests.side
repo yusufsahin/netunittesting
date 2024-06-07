@@ -1,0 +1,405 @@
+{
+  "id": "085b0152-72b3-4432-9bee-befda21675a9",
+  "version": "2.0",
+  "name": "SportsStoreTests",
+  "url": "http://sportsstore.innovium.net",
+  "tests": [{
+    "id": "2aca9242-9fb9-4b8f-98d2-0045ff67b3c3",
+    "name": "BasicSportsStoreOrder",
+    "commands": [{
+      "id": "1044418c-edf0-499b-a9a4-a7603da6aff0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05a2a292-a0c9-4c64-8f55-5f842c8b4eb0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14169e6f-6b7b-45ad-a9ad-72ef08ea87e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.btn-outline-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='categories']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Page1')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f627b81b-276b-4a65-a8ab-d7aa84c02ef7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='1']/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de2ce20a-6b03-4397-9433-918744da6951",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a332f9c9-57f7-4555-8f69-9423ef6c9025",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Your cart')]",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your cart')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "0c5167b6-7683-4e78-b964-c55a5002bc03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkout",
+      "targets": [
+        ["linkText=Checkout", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Order/Checkout')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c8e170-d0e2-4ae8-899c-7c21df06a0d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Check out now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb434e0f-3bf6-4058-9d8b-6dd3a3eb70ab",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//h2[contains(.,'Check out now')]",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Check out now')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "9f779b98-2926-4877-9d1d-4b51ae15338f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Name",
+      "targets": [
+        ["id=Name", "id"],
+        ["name=Name", "name"],
+        ["css=#Name", "css:finder"],
+        ["xpath=//input[@id='Name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b1aa984-09cf-4f19-b7a8-8244c2823e97",
+      "comment": "",
+      "command": "type",
+      "target": "id=Name",
+      "targets": [
+        ["id=Name", "id"],
+        ["name=Name", "name"],
+        ["css=#Name", "css:finder"],
+        ["xpath=//input[@id='Name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "John Doe"
+    }, {
+      "id": "0a175193-5f3a-4a4b-92a0-179b64803eb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Line1",
+      "targets": [
+        ["id=Line1", "id"],
+        ["name=Line1", "name"],
+        ["css=#Line1", "css:finder"],
+        ["xpath=//input[@id='Line1']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6250fda8-a0c8-4c10-87af-4ea9a27bab00",
+      "comment": "",
+      "command": "type",
+      "target": "id=Line1",
+      "targets": [
+        ["id=Line1", "id"],
+        ["name=Line1", "name"],
+        ["css=#Line1", "css:finder"],
+        ["xpath=//input[@id='Line1']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Silicon Hill Blv"
+    }, {
+      "id": "af2a9fc5-8836-4169-90d1-556a04f141e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(5)",
+      "targets": [
+        ["css=.form-group:nth-child(5)", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b0192c0-d912-4e71-9561-b27c6f7745db",
+      "comment": "",
+      "command": "click",
+      "target": "id=Line2",
+      "targets": [
+        ["id=Line2", "id"],
+        ["name=Line2", "name"],
+        ["css=#Line2", "css:finder"],
+        ["xpath=//input[@id='Line2']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b5ebcc1-955d-4063-8242-11774eb3525f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Line2",
+      "targets": [
+        ["id=Line2", "id"],
+        ["name=Line2", "name"],
+        ["css=#Line2", "css:finder"],
+        ["xpath=//input[@id='Line2']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "No 9"
+    }, {
+      "id": "d34bbee0-b01c-4308-87fe-c2d8f7253926",
+      "comment": "",
+      "command": "click",
+      "target": "id=Line3",
+      "targets": [
+        ["id=Line3", "id"],
+        ["name=Line3", "name"],
+        ["css=#Line3", "css:finder"],
+        ["xpath=//input[@id='Line3']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858fc1c8-fbe8-4b4d-98b8-27a0dc3b1a5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Line3",
+      "targets": [
+        ["id=Line3", "id"],
+        ["name=Line3", "name"],
+        ["css=#Line3", "css:finder"],
+        ["xpath=//input[@id='Line3']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "6785"
+    }, {
+      "id": "3570790b-a0a7-4827-b85f-28958b1e384a",
+      "comment": "",
+      "command": "click",
+      "target": "id=City",
+      "targets": [
+        ["id=City", "id"],
+        ["name=City", "name"],
+        ["css=#City", "css:finder"],
+        ["xpath=//input[@id='City']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "376d0f12-6800-4b2a-8cb7-efacf88c3dc5",
+      "comment": "",
+      "command": "type",
+      "target": "id=City",
+      "targets": [
+        ["id=City", "id"],
+        ["name=City", "name"],
+        ["css=#City", "css:finder"],
+        ["xpath=//input[@id='City']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Austin"
+    }, {
+      "id": "98314378-6e67-47b8-b1b3-0cef84bd3fc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=State",
+      "targets": [
+        ["id=State", "id"],
+        ["name=State", "name"],
+        ["css=#State", "css:finder"],
+        ["xpath=//input[@id='State']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c810be0-c216-4370-ba53-20a0c18a1197",
+      "comment": "",
+      "command": "type",
+      "target": "id=State",
+      "targets": [
+        ["id=State", "id"],
+        ["name=State", "name"],
+        ["css=#State", "css:finder"],
+        ["xpath=//input[@id='State']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "TX"
+    }, {
+      "id": "f7b5a352-708c-4f7c-9c50-71faa1fcea3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Zip",
+      "targets": [
+        ["id=Zip", "id"],
+        ["name=Zip", "name"],
+        ["css=#Zip", "css:finder"],
+        ["xpath=//input[@id='Zip']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d63e78d0-df43-44f1-8f14-2df71db30f9f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Zip",
+      "targets": [
+        ["id=Zip", "id"],
+        ["name=Zip", "name"],
+        ["css=#Zip", "css:finder"],
+        ["xpath=//input[@id='Zip']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "56422"
+    }, {
+      "id": "679ff03d-d635-4132-aa04-a50521233b37",
+      "comment": "",
+      "command": "click",
+      "target": "id=Country",
+      "targets": [
+        ["id=Country", "id"],
+        ["name=Country", "name"],
+        ["css=#Country", "css:finder"],
+        ["xpath=//input[@id='Country']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "118bcd87-660e-437c-9727-f0b66103078e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Country",
+      "targets": [
+        ["id=Country", "id"],
+        ["name=Country", "name"],
+        ["css=#Country", "css:finder"],
+        ["xpath=//input[@id='Country']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "USA"
+    }, {
+      "id": "6b636918-b525-422a-9ab8-e9a8b1339dd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Complete Order']", "xpath:attributes"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f428d7e-248a-46af-9788-e6bacb54ebaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Thanks!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf5f0b9-4958-41b4-bd52-19d6433721ad",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Thanks!')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "6e486e48-8acf-4557-ae10-26a3fa681cd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dece90b7-d4b6-4beb-ad4b-150c84c9061d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": "We'll ship your goods as soon as possible."
+    }, {
+      "id": "259003f6-6b8f-4cfc-ba98-4ee557fc8556",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return to Store",
+      "targets": [
+        ["linkText=Return to Store", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Return to Store')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return to Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3f9e7d8e-05df-470c-ac7d-53bf2324996d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2aca9242-9fb9-4b8f-98d2-0045ff67b3c3"]
+  }],
+  "urls": ["http://sportsstore.innovium.net/"],
+  "plugins": []
+}

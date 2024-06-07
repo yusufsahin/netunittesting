@@ -161,3 +161,14 @@ C:\Projects\SportsSln\SportsStore.Tests\bin\Debug\net8.0\selenium-manager\window
 C:\Projects\SportsSln\SportsStore.Tests\bin\Debug\net8.0\OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll
 C:\Projects\SportsSln\SportsStore.Tests\bin\Debug\net8.0\WebDriver.Support.dll
 C:\Projects\SportsSln\SportsStore.Tests\bin\Debug\net8.0\WebDriver.dll
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_SportsStore.Tests
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_SportsStore.Tests
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.csproj.AssemblyReference.cache
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.AssemblyInfoInputs.cache
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.AssemblyInfo.cs
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.csproj.CoreCompileInputs.cache
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.sourcelink.json
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.dll
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\refint\SportsStore.Tests.dll
+C:\Projects\NetUnitTesting\SportsSln\SportsStore.Tests\obj\Debug\net8.0\SportsStore.Tests.pdb
