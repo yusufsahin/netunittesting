@@ -28,7 +28,7 @@ namespace SportsStore.TestsUI
         [Fact]
         public void BasicSportsStoreOrder()
         {
-            driver.Navigate().GoToUrl("http://localhost:5000/");
+            driver.Navigate().GoToUrl("http://sportsstore.innovium.net/");
             driver.Manage().Window.Maximize();
 
             ScrollToElement(By.LinkText("Home"));
